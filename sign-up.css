@@ -1,0 +1,58 @@
+:root{
+    --mainColor:#00B074;
+    --secondary: rgba(0, 176, 116, 0.1)
+    
+}
+.container{
+    margin-top: 50px;
+   border: 1px solid 
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.left {
+    height: 600px;
+    width: 400px;
+    background-color: var(--mainColor);
+}
+.left p{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.right{
+    padding-left: 15px;
+    margin: 10px 0px;
+}
+.right h1{
+    text-align: center;
+    color: var(--mainColor);
+}
+.gt{
+    padding-left: 15px;
+}
+.box-phone{
+    border: 1px solid black;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.button-signup{
+    border-style: none;
+    background-color: var(--mainColor);
+    color: white;
+    border-radius:4px;
+    height: 40px;
+    font-size: 15px;
+}
+.button-cm-home{
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    font-size:15px ;
+    border-radius: 4px;
+}
+

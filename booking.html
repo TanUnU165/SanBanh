@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thong tin san</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="booking.css">
+  </head>
+  <body>
+    <div class="header d-flex justify-content-between">
+      <ul class="nav nav-tabs">
+        <li class="nav-item home-page">
+          <a class="nav-link active" aria-current="page" href="homepage.html"
+            >TRANG CHU</a
+          >
+        </li>
+
+        <li class="nav-item more-opt">
+          <a
+            class="btn dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            XEM THEM
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Ve chung toi</a></li>
+            <li><a class="dropdown-item" href="#">Lich san banh</a></li>
+            <li><a class="dropdown-item" href="#">Dat san</a></li>
+            <li><a class="dropdown-item" href="#">Lien he</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="personal">
+        <div class="dropdown">
+          <a
+            class="btn dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Username
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Thong tin tai khoan</a></li>
+            <li><a class="dropdown-item" href="#">Lich su dat san</a></li>
+            <li><a class="dropdown-item" href="login.html">Dang xuat</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h4>Nhap thong tin dat san</h4>
+    <div class="container ">
+      <table class="ma-san col-4">
+        <tr>
+          <td>Ma san</td>
+          <td>SA-01 | <a href="detail-yard.html">Xem thong tin san</a></td>
+        </tr>
+      </table>
+
+      <div class="d-flex justify-content-between">
+        <div class=" col-5">
+        <table  class="col-8 input-info ">
+            <h5>Thong tin nguoi dat san</h5>
+          <tr>
+            <td>Ho va ten</td>
+            <td><input type="text" placeholder="Nhap ten khach hang" /></td>
+          </tr>
+          <tr>
+            <td>So dien thoai</td>
+            <td>
+              <input type="text" placeholder="Nhap so dien thoai khach hang" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              <input type="text" placeholder="Nhap dia chi email khach hang" />
+            </td>
+          </tr>
+          <tr>
+            <td>Dia chi</td>
+            <td><input type="text" placeholder="Nhap dia chi khach hang" /></td>
+          </tr>
+        </table>
+        </div>
+        <div class="col-5 ">
+            <table class="col-8 input-info " >
+            <h5>Thong tin dat san</h5>
+          <tr>
+            <td>Ngay dat san</td>
+            <td>
+              <input
+                type="date"
+                placeholder="Chon ngay dat san"
+            
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Thoi gian dat san</td>
+            <td>
+              <input
+                type="time"
+                placeholder="hh-mm"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Khuyen mai</td>
+            <td>
+              <input type="text" placeholder="Nhap ma khuyen mai" />
+            </td>
+          </tr>
+          <tr>
+            <td>Gia tien</td>
+            <td><input type="text" placeholder="Nhap dia chi khach hang" /></td>
+          </tr>
+        </table>
+            </div>
+        </div>
+        <div class="btn-action">
+          <button class="submit btn">Hoan thanh</button>
+          <button class="cancel btn " onclick="redirectToHomePage()">Huy</button>
+        </div>
+    </div>
+
+
+  </body>
+</html>

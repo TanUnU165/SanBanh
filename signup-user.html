@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sign-up.css" />
+    <script src="main.js"></script>
+    <title>Dang ky</title>
+  </head>
+  <body>
+    <div class="header">
+      
+    </div>
+    <div class="container col-12 d-flex align-items-center justify-content-center">
+      <div class="left">
+        <p>Dang ky <br>Tai khoan</p>
+      </div>
+      <div class="right col-8">
+        <h1>Đăng ký tài khoản </h1>
+        <div class="name-sex col-8 d-flex justify-content-between">
+          <div class="name col-7">
+            <p>Ho va ten</p>
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              class="col-12 full-name"
+              placeholder="Nhap ho va ten "
+            />
+          </div>
+          <div class="gt col-7">
+            <p>Gioi tinh</p>
+
+            <select name="gt" id="gt" class="col-8 sel-gt">
+              <option value="0">Hay chon gioi tinh</option>
+              <option value="nam">Nam</option>
+              <option value="nu">Nu</option>
+              <option value="no-value">Khác</option>
+            </select>
+          </div>
+        </div>
+       
+        <div class="phone-number">
+          <p>So dien thoai</p>
+          <div class="d-flex">
+         
+            <input
+              type="text"
+              name="number"
+              id="number"
+              class="col-8 number"
+              placeholder="Số điện thoại bắt đầu với đầu số 03,05,07,09"
+            />
+          </div>
+        </div>
+
+        <div class="birth-day">
+            <p>Nhap ngay sinh</p>
+            <input type="date" class="col-8" placeholder="ngay sinh">
+        </div>
+       
+        <div class="password">
+            <p>Mat khau</p>
+            <input 
+            type="password" 
+            name="password" 
+            id="password"
+            class="col-8 text-password"
+            placeholder="Nhập mật khẩu từ 6-32 kí tự, chứa ít nhất 1 chứ hoa và 1 số, có thể nhấn tạo mạt khẩu tự sinh">
+        </div>
+
+        <div class="confirm-password">
+            <p>Nhap lai Mat khau</p>
+            <input 
+            type="password" 
+            name="confirm-password" 
+            id="confirm-password"
+            class="col-8 text-confirm-password"
+            placeholder="Nhập 6-32 ký tự, chứa ít nhất 1 chữ hoa và 1 số, có thể nhấn tạo mật khẩu tự sinh">
+        </div>
+     
+        <div class="col-8 ">
+            <button class="col-12 mt-4 button-signup" onclick="redirectToHomePage()">Dang ky</button>
+        </div>
+        <div class="col-8 ">
+            <button class="col-12 mt-4 button-cm-home" onclick="">Quay lai trang quan ly</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

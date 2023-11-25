@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thong tin san</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="main.js"></script>
+    <link rel="stylesheet" href="detail-yard.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header d-flex justify-content-between">
+        <ul class="nav nav-tabs">
+          <li class="nav-item home-page">
+            <a class="nav-link active" aria-current="page" href="homepage.html"
+              >TRANG CHU</a
+            >
+          </li>
+  
+          <li class="nav-item more-opt">
+            <a
+              class="btn dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              XEM THEM
+            </a>
+  
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Ve chung toi</a></li>
+              <li><a class="dropdown-item" href="#">Lich san banh</a></li>
+              <li><a class="dropdown-item" href="#">Dat san</a></li>
+              <li><a class="dropdown-item" href="#">Lien he</a></li>
+            </ul>
+          </li>
+        </ul>
+  
+        <div class="personal">
+          <div class="dropdown">
+            <a
+              class="btn dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Username
+            </a>
+  
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Thong tin tai khoan</a></li>
+              <li><a class="dropdown-item" href="#">Lich su dat san</a></li>
+              <li><a class="dropdown-item" href="login.html">Dang xuat</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="carousel-slide">
+            <h4>Thong tin dat san banh</h4>
+            <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/TC3616UTCo-san-bong-da-TC3616UT-132321152010206984 1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/TC3616UTCo-san-bong-da-TC3616UT-132321152010206984 1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/TC3616UTCo-san-bong-da-TC3616UT-132321152010206984 1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+          <div class="detail-info-yard ">
+              <table class="info-yard col-4">
+                  <h5>Thong tin san</h5>
+                  
+            <tr>
+                <td>Ma san: </td>
+                <td>SA-01</td>
+            </tr>
+            <tr>
+                <td>Loai san: </td>
+                <td>San 5</td>
+            </tr>
+            <tr>
+                <td>Gia thue: </td>
+                <td>100.000-300.000</td>
+            </tr>
+            <tr>
+                <td>Khu vuc: </td>
+                <td>Binh Thanh</td>
+            </tr>
+            <tr>
+                <td>Danh gia:</td>
+                <td><ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                </td>
+
+            </tr>
+          </table>
+          <table class="info-yard col-4">
+              <h5>Nguoi quan ly</h5>
+            <tr>
+                <td>Ho va ten</td>
+                <td>Tran Van A</td>
+            </tr>
+            <tr>
+                <td>So dien thoai</td>
+                <td>+84xx xxx xxx</td>
+            </tr>
+          </table>
+          <button class="submit btn mt-3" onclick="redirectToBookingPage()" >Dat san</button>
+          <button class="comback btn mt-3" onclick="redirectToHomePage()">Quay lai trang chu</button>
+
+        </div>
+        <table class="info-yard-content col-6">
+            <h5>Services</h5>
+          <tr>
+              <td>
+                  <ul>
+                      <li>Mat co nhan tao chat luong cao</li>
+                      <li>Co nuoc mien phi</li>
+                      <li>Cho thue phu kien: giay, gang,... </li>
+                      <li>San co den dat chuan thi dau</li>
+                      <li>Ho tro trong tai (neu co)</li>
+                  </ul>
+              </td>
+          </tr>
+        </table>
+  
+</body>
+</html>
